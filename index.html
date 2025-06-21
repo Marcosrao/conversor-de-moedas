@@ -19,17 +19,18 @@
         <section class="main-menu">
             <label>
                 Convert <b>from</b>
-                <select>
-                    <option>UNITED STATES - DOLAR</option>
-                    <option>EUROPE-EURO</option>
-                    <option>BITCOIN</option>
-                    <option>SAUDI ARABIA</option>
-                    <option>ARGENTINA</option>
-                    <option>BRAZIL</option>
-                    <option>CHINA</option>
-                    <option>JAPAN</option>
-                    <option>PARAGUAY</option>
-                    <option>RUSSIA</option>
+                <select class="currency-select">
+                    <option value="dolar">UNITED STATES - DOLAR</option>
+                    <option value="euro">EUROPE-EURO</option>
+                    <option value="bit">BITCOIN</option>
+                    <option value="saudi">ARABIA SAUDITA</option>
+                    <option value="suica">SUIÇA</option>
+                    <option value="peso">ARGENTINA</option>
+                    <option value="real">BRAZIL</option>
+                    <option value="yuan">CHINA</option>
+                    <option value="yen">JAPAN</option>
+                    <option value="guarani">PARAGUAY</option>
+                    <option value="ruble">RUSSIA</option>
                 </select>
             </label>
             <br>
@@ -37,23 +38,23 @@
             <label>
                 Convert <b>to</b>
                 <select>
-                    <option>UNITED STATES - DOLAR</option>
-                    <option>EUROPE-EURO</option>
-                    <option>BITCOIN</option>
-                    <option>SAUDI-ARABIA</option>
-                    <option>ARGENTINA</option>
-                    <option>BRAZIL</option>
-                    <option>CHINA</option>
-                    <option>JAPAN</option>
-                    <option>PARAGUAY</option>
-                    <option>RUSSIA</option>
+                    <option value="dolar">UNITED STATES - DOLAR</option>
+                    <option value="euro">EUROPE-EURO</option>
+                    <option value="bitcoin">BITCOIN</option>
+                    <option value="suica">SUIÇA</option>
+                    <option value="peso">ARGENTINA</option>
+                    <option value="real">BRAZIL</option>
+                    <option value="yuan">CHINA</option>
+                    <option value="yen">JAPAN</option>
+                    <option value="guarani">PARAGUAY</option>
+                    <option value="ruble">RUSSIA</option>
                 </select>
             </label>
             <br>
             <br>
             <label>
                 value
-                <input class="input-corrency" placeholder="$ 10.000,00">
+                <input class="input-currency" placeholder="$ 10.000,00">
             </label>
             <br>
             <br>
@@ -68,10 +69,11 @@
                 <p class="curreuncy-value-origin"><b>$ 0,00</b></p>
             </label>
             <img src="./assets/round flag/bandeira euro.png" alt="round-flag-convert">
-            <label><b>Currency</b></p>
+            <label>
+                <p class="currency" id="correnty-name"></p><b>Currency</b></p>
                 <p class="curreuncy-value-destination"><b>$ 0,00</b></p>
             </label>
-            <img src="./assets/round flag/bandeira brasil.jpeg" alt="round-flag-convert">
+            <img class="correnty-img" src="./assets/round flag/bandeira brasil.jpeg" alt="round-flag-convert">
         </section>
     </main>
     <script src="./script.js"></script>
