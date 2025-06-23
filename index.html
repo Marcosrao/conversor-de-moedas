@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Conversor de moedas</title>
+</head>
+
+<body>
+    <img class="logo-money" src="./assets/logo.gif">
+    <main>
+        <section class="main-menu">
+            <label>
+                Currency <b>from</b>
+                <select class="currency-select">
+                    <option value="real">BRAZIL</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>
+                Convert <b>to</b>
+                <select class="corrency-select-converted">
+                    <option value="dolar">UNITED STATES - DOLAR</option>
+                    <option value="euro">EUROPE-EURO</option>
+                    <option value="bitcoin">BITCOIN</option>
+                    <option value="saudi">ARABIA SAUDITA</option>
+                    <option value="suice">SUIÇA</option>
+                    <option value="peso">ARGENTINA</option>
+                    <option value="yuan">CHINA</option>
+                    <option value="yen">JAPAN</option>
+                    <option value="guarani">PARAGUAY</option>
+                    <option value="ruble">RUSSIA</option> 
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>
+                <input class="input-currency" placeholder="$ 10.000,00">
+            </label>
+            <br>
+            <br>
+            <button class="convert-button"><b>Converter</b></button>
+        </section>
+        <section class="terrestrial-globe">
+            <img class="terrestrial-globe" src="./assets/round flag/download.gif" alt="terrestrial-globe">
+        </section>
+        <section class="response">
+            <label>
+                <p class="currency"><b>Brazil</b></p>
+                <p class="currency-value-origin"><b>$ 0,00</b></p>
+            </label>
+            <img src="./assets/round flag/brasil.jpeg" alt="round-flag-convert">
+            <label>
+                <p class="currency" id="currency-name"><b>Currency</b></p>
+                <p class="currency-value-destination"><b>$ 0,00</b></p>
+            </label>
+            <img class="currency-image" src="./assets/round flag/sifrao.jpeg" alt="round-flag-convert">
+        </section>
+    </main>
+</body>
+  <script src="./scripts.js"></script>
+</html>
